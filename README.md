@@ -1,7 +1,7 @@
 
 # Protein Secondary Structure Prediction
 
-This project involves predicting the secondary structure of proteins using a deep learning model. The model is trained to classify the secondary structure of each amino acid in a protein sequence into three categories: Helix (H), Sheet (E), and Coil (C).
+This project involves predicting the secondary structure of proteins using a deep learning model. The model is trained to classify the secondary structure of each amino acid in a protein sequence into three categories: alpha Helix (H), betastrand (E), and loops and irregular elements (C), beta bridge (B), 3-helix (G), pi helix (I), Turn (T), Bend (S).
 
 ## Project Overview
 
@@ -10,7 +10,7 @@ Protein secondary structure prediction is a critical task in bioinformatics, as 
 ## Features
 
 - **Convolutional Neural Network (CNN)**: Utilizes CNNs to capture patterns in protein sequences.
-- **Three-state Secondary Structure**: Predicts secondary structures as Helix (H), Sheet (E), or Coil (C).
+- **Three-state Secondary Structure**: Predicts secondary structures as Helix (H), betastrand (E), and loops and irregular elements (C), beta bridge (B), 3-helix (G), pi helix (I), Turn (T), Bend (S).
 - **Customizable**: Easily adaptable to new datasets or extended to more states or features.
 - **Model Persistence**: Saves the trained model in Keras native format for easy reuse.
 
@@ -115,12 +115,12 @@ This project is licensed under the MIT License. See the `LICENSE` file for more 
 
 ## Acknowledgments
 
-- The dataset used in this project was obtained from [data source].
+- The dataset used in this project was obtained from https://cdn.rcsb.org/etl/kabschSander/ss.txt.gz]. and curated by ( https://github.com/zyxue/pdb-secondary-structure) and download from kaggle.
 - Inspiration for the project structure was drawn from various bioinformatics resources and tutorials.
 
 ## Contact
 
-For any questions or feedback, please open an issue in the repository or contact the project maintainers at [email@example.com].
+For any questions or feedback, please open an issue in the repository or contact the project maintainers at [pranjalarun10@gmail.com].
 
 ---
 
