@@ -109,9 +109,6 @@ Non-standard amino acids are removed to ensure consistency.
 
 Contributions are welcome! Please fork the repository and create a pull request with your changes. Ensure your code adheres to the project’s coding standards and is well-documented.
 
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for more details.
 
 ## Acknowledgments
 
