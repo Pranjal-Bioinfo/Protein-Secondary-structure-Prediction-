@@ -47,12 +47,6 @@ Non-standard amino acids are removed to ensure consistency.
 3. **Install Dependencies**:
 
     ```bash
-    pip install -r requirements.txt
-    ```
-
-    If you don't have a `requirements.txt` file, use the following command to install the necessary packages:
-
-    ```bash
     pip install numpy pandas tensorflow scikit-learn matplotlib
     ```
 
@@ -60,8 +54,7 @@ Non-standard amino acids are removed to ensure consistency.
 
 1. **Prepare the Dataset**:
    
-    Ensure the dataset (`protein_sequences.csv`) is placed in the `data/` directory. The project uses a preprocessed dataset, so no additional preprocessing is required.
-
+    Ensure the dataset (`protein_sequences.csv`) is placed in the `data/` directory.
 2. **Run the Training Script**:
 
     You can train the model by running the `train_model.ipynb` notebook or executing the `train_model.py` script:
